@@ -1,0 +1,39 @@
+{
+  "name": "simple-quiz",
+  "version": "0.0.1",
+  "description": "simple-quiz ===========",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "reload": "nodemon -L server/server.js --watch server"
+  },
+  "dependencies": {
+    "node-static": "~0.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chandlerkent/simple-quiz.git"
+  },
+  "author": "chandler.kent@gmail.com",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "6add6c3bc2d71e23247ccc9c18e2f4f88af61971",
+  "bugs": {
+    "url": "https://github.com/chandlerkent/simple-quiz/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-neuter": "~0.5.0",
+    "grunt-contrib-jshint": "~0.4.0",
+    "grunt-ember-templates": "0.4.x",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "nodemon": "~0.7.10"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}

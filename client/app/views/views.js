@@ -1,0 +1,1 @@
+require("app/views/application_view.js");
